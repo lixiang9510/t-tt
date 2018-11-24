@@ -96,3 +96,33 @@
 .general-top-explain .general-top-explain-right .for-add-border-and-word i{
 	font-size: 8px;
 }*/
+.general-image-every{
+	width: 305px;
+	height: 430px;
+	border:1px solid #e1e1e1;
+}
+ .general-image-every .background-image{
+ 	width: 305px;
+ 	height: 244px;
+ 	background-image: url(../img/lx-1.png);
+ 	background-position: -792px -1902px;
+ 	background-repeat: no-repeat;
+ }
+.general-image-every .image-explain{
+	
+	margin:0px auto;
+	background-color: red;
+
+ }
+.general-image-every .ad-slogan{
+
+ }
+.general-image-every .goods-price{
+
+ }
+.general-image-every .goods-price .money-symbol{
+
+ }
+.general-image-every .goods-price .number{
+
+ }
