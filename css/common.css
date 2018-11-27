@@ -2,6 +2,11 @@ a{
 	text-decoration: none;
 	color:#777;
 }
-ul li{
+li{
 	list-style: none;
+}
+.container{
+	width: 1220px;
+	margin-left: auto;
+	margin-right: auto;
 }
