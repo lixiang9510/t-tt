@@ -14,16 +14,16 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+/*问号*/
 .icon-wenhao:before { content: "\e7f8"; }
-
+/*购物车*/
 .icon-gouwuche:before { content: "\e602"; }
-
+/*大于号*/
 .icon-dayuhao:before { content: "\e702"; }
-
+/*人*/
 .icon-touxiang:before { content: "\e502"; }
-
+/*小于号*/
 .icon-dayuhao1:before { content: "\e505"; }
-
+/*搜索号*/
 .icon-fangdajing-:before { content: "\e646"; }
 
