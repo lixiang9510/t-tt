@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *{
 	margin: 0;
 	padding: 0;
@@ -96,14 +95,14 @@
 .hot .advertise .ul3 li .s3{
 }
 .hot .advertise .ul3 li .s4
-.hot .advertise .ul3 li:nth-child(1) img{
+.hot .advertise .ul3 .li1 img{
 	width: 303px;
 	height: 201px;
 	border-radius: 6px;
 }
-.hot .advertise .ul3 li:nth-child(2) img,
-.hot .advertise .ul3 li:nth-child(3) img,
-.hot .advertise .ul3 li:nth-child(4) img{
+.hot .advertise .ul3 .li2 img,
+.hot .advertise .ul3 .li2 img,
+.hot .advertise .ul3 .li2 img{
 	width: 187px;
 	height: 113px;
 	margin-top: 20px;
@@ -126,16 +125,4 @@
 /*end*/
 .end{
 
-=======
-.footer-serve{
-	width: 1224px;
-	height: 225px;
-	background: yellow;
-}
-.end-por{
-	width: 1224px;
-	height: 130px;
-	background: blue;
-	
->>>>>>> e28b0688ebece3a94652accc4b8821de85939033
 }
