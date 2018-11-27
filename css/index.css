@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
 	margin: 0;
 	padding: 0;
@@ -125,4 +126,16 @@
 /*end*/
 .end{
 
+=======
+.footer-serve{
+	width: 1224px;
+	height: 225px;
+	background: yellow;
+}
+.end-por{
+	width: 1224px;
+	height: 130px;
+	background: blue;
+	
+>>>>>>> e28b0688ebece3a94652accc4b8821de85939033
 }
