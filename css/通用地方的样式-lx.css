@@ -1,4 +1,13 @@
-
+.clearfix:after{
+	display: block;
+	content: "";
+	clear: both;
+	height: 0px;
+	visibility: hidden;
+}
+.clearfix{
+	*zoom:1;
+}
 /*头部标题加右侧导航
 .general-top-explain{
 	width: 1224px;
@@ -256,6 +265,19 @@
 	background-color: yellow;
 	transition: all 0.5s;
 }
+.general-big-border .i-anbigul .i-amTwoBigLi{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 612px;
+	height: 430px;
+	z-index: 5;
+	background-color: olive;
+	transition: all 0.5s;
+}
 .general-big-border .i-anbigul .i-ambigli:hover{
-	box-shadow:2px 2px 3px 1px black inset;
+	box-shadow:-5px -5px 10px 5px black ;
+}
+.general-big-border .i-anbigul .i-amTwoBigLi:hover{
+	box-shadow:2px 2px 4px 2px black ;
 }
