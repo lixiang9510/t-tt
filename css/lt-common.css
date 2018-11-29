@@ -10,13 +10,3 @@ li{
 	margin-left: auto;
 	margin-right: auto;
 }
-.clearfix:adter{
-	content: "";
-	display: block;
-	clear: bottom;
-	height: 0;
-	visibility: hidden;
-}
-.clearfix{
-	*zoom:1;	
-}

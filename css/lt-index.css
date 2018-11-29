@@ -16,6 +16,7 @@
 .hot{
 	height: 1243px;
 	margin-top: 25px;
+	margin-bottom: 100px;
 }
 .hot .slideshow{
 	height: 497px;
@@ -145,13 +146,14 @@
 	height: 490px;
 	background: #ccc;
 	margin-top: 25px;
-	border: 1px solid #dbdbdb;
+	/*border: 1px solid #dbdbdb;
+	box-sizing: border-box;*/
 }
 .hot .goods .goodstext{
 	height: 60px;
 	line-height: 60px;
 	background: #fafafa;
-	border-bottom: 1px solid #dbdbdb;
+	border: 1px solid #dbdbdb;
 }
 .hot .goods .goodstext p{
 	float: left;
@@ -183,9 +185,104 @@
 	background: #fff;
 	margin-bottom: 10px;
 }
+.hot .goods .goodsimg .ul4>li{
+	float: left;
+	width: 305px;
+	height: 430px;
+	text-align: center;
+	border-right: 1px solid #efefef;
+	border-bottom: 1px solid #dbdbdb;
+	box-sizing: border-box;
+	position: relative;
+}
+.hot .goods .goodsimg .ul4 li:nth-child(1){
+	border-left: 1px solid #dbdbdb;
+}
+.hot .goods .goodsimg .ul4 li:nth-child(4){
+	border-right-color: #dbdbdb;
+}
+.hot .goods .goodsimg .ul4 li img{
+	width: 125px;
+	height: 192px;
+	margin-top: 60px;
+}
+.hot .goods .goodsimg .ul4 li h4{
+	color: #333;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 25px 0 10px 0;
+}
+.hot .goods .goodsimg .ul4 li .span1{
+	color: #999;
+	font-size: 12px;
+}
+.hot .goods .goodsimg .ul4 li .ttt{
+	display: block;
+	width: 50px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: red;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	border-radius: 13px;
+	position: absolute;
+	top: 20px;
+	right: 10px;
+}
+.hot .goods .goodsimg .ul4 li .ttt2{
+	background: green;
+}
+.hot .goods .goodsimg .ul4>li #ul5{
+	width: 100px;
+	height: 14px;
+	position: absolute;
+	bottom: 70px;
+	left: 50%;
+	margin-left: -50px;
+}
+.hot .goods .goodsimg .ul4>li #ul5>li{
+	float: left;
+	width: 14px;
+	height: 14px;
+	border: 2px solid #e7e7e7;
+	border-radius: 50%;
+	margin-right: 10px;
+	box-sizing: border-box;
+	padding: 3px;
+}
+.goodsimg .ul4>li #ul5>li:nth-child(1){
+	background: #212121;
+}
+.goodsimg .ul4>li #ul5>li:nth-child(2){
+	background: #4b5081;
+}
+.goodsimg .ul4>li #ul5>li:nth-child(3){
+	background: #ba444f;
+}
+.goodsimg .ul4>li #ul5>li:nth-child(4){
+	background: #ebebeb;
+}
+.hot .goods .goodsimg .ul4 li p{
+	color: #d44d44;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 40px;
+}
+.goodsimg .ul4 li .date{
+	width: 14px;
+	height: 14px;
+	border: 2px solid #b7b7b7;
+	border-radius: 50%;
+	margin: 14px auto;
+	margin-bottom: -25px;
+}
 /*main*/
 .main{
-
+	height: 300px;
+	background: #000;
+	margin-top: 40px;
 }
 /*should*/
 .should{
