@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+
+
+
+/* 上面为通用样式 */
+header{
+	position: absolute;
+	left: 0;
+	top: 0; 
+	margin-bottom: 45px;
+	width: 100%;
+	height: 45px;
+	background-color: #232426;
+	z-index: 1;
+}
+header .logo{
+	float: left;
+	width: 19px;
+	height: 19px;
+	margin: 13px 0 0 23px;
+	background: #fff;
+}
+header .logo a{
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+}
+header .logo a img{
+	width: 19px;
+	height: 19px;
+}
+header .link{
+	float: right;
+	width: 66%;
+}
+header .link ul li{
+	float: left;
+	margin-left: 30px;
+	line-height: 45px;
+}
+header .link ul li:first-child{
+	margin-left: 0px;	
+}
+header .link ul li:first-child a{
+	font-weight: bold;
+	color: #e5e5e5;
+}
+header .link ul li a{
+	font-size: 12px;
+	color: #bfbfc0;
+}
+header .link ul li a:hover{
+	color: #e5e5e5;
+}
+header .sc{
+	float: right;
+}
+header .sc a i{
+	margin-right: 15px;
+	line-height: 45px;
+	font-size: 16px;
+	color: #bfbfc0;
+}
+header .sc a:nth-child(2) i{
+	margin-right: 20px;
+}
+/* 下面导航 */
+nav{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 74px;
+	background-color: #fff;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1); 
+}
+section{
+	width: 1224px;
+	height: 1703px;
+	background-color: skyblue;
+	margin: 0 auto;
+}
+footer{
+	height: 355px;
+	background-color: #fafafa;
+}
