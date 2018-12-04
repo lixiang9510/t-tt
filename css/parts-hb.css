@@ -9,7 +9,7 @@ li{
 	list-style: none;
 }
 .common{
-	position: relative;
+	/*position: relative;*/
 	width: 1220px;
 	margin: 0 auto;
 }
@@ -39,9 +39,11 @@ header .logo a img{
 header .link{
 	width: 1220px;
 	margin-left: 380px;
+
 }
 header .link li{
 	float: left;
+	height: 45px;	
 	text-align: center;
 	margin-left: 30px;
 	line-height: 45px;
@@ -98,10 +100,15 @@ nav .nav-link li a:hover{
 	color: #5079d9;
 }
 nav .nav-search{
-	background: 
+	float: right;
+	width: 466px;
+	height: 74px;
+	/*background: yellow;*/
 }
-nav .nav-search a{
-	display: inline-block;
+nav .nav-search .nav-search-box{
+	width: 330px;
+	height: 36px;
+	border: 1px solid #000;
 }
 
 
