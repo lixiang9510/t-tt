@@ -414,17 +414,13 @@ body{
 	color: #a8a8a8;
 }
 .footer{
-	margin-top: 24px;
-	width: 100%;
-	background-color: #fff;
+	margin-bottom: 24px;
 }
 .footer .container1{
 	height: 225px;
 }
 .end{
 	margin-bottom: 24px;
-	width: 100%;
-	background-color: #fff;
 }
 .end .container1{
 	height: 131px;
