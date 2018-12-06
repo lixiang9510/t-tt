@@ -79,6 +79,7 @@ body{
 	border: 2px solid #f2f2f2;
 	outline: none;
 	padding-left: 40px;
+	font-size: 12px;
 	box-sizing: border-box;
 
 }
@@ -101,7 +102,7 @@ body{
 	border: 1px solid #93b2f7;
 	background-color: #e5efff;
 	color: #3965cc;
-	font-size: 12px;
+	font-size: 12px; 
 	border-radius:10px; 
 	text-align: center;
 	line-height: 20px;
