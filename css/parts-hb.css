@@ -197,7 +197,7 @@ section .commodity ul li{
 	float: left;
 	width: 20%;
 	height: 384px;
-	border: 1px solid #efefef;
+	border: 1px solid #000;
 	box-sizing: border-box;
 }
 section .commodity ul li:first-child{
