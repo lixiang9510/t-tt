@@ -78,7 +78,7 @@
 	vertical-align:top;
 	color: #555;
 }
-.header .skill a:first-of-type{
+.header .skill a:last-child{
 	color: #ddd;
 	font-weight: bold;
 }
@@ -107,29 +107,10 @@
 
 
 
-.main li{
-	margin-top: -4px;
-}
+
 .main img{
 	width:100%;
 }
-.main .img1{
-	height: 1527.19px;
-}
-.main .img2{
-	height: 2594.06px;
-}
-.main .img3{
-	height: 900px;
-}
-.main .img4{
-	height: 808.44px;
-}
-.main .img5{
-	height: 632.19px;
-}
-
-
 
 .end{
 	width: 100%;
