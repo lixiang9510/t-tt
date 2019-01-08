@@ -59,39 +59,120 @@ body{
 	width: 100%;
 	height: 65px;
 	background: #ffffff;
+	position: relative;
 }
-.header ul{
+.header .ul99{
 	width: 756px;
 	height: 65px;
 	line-height: 65px;
 	margin-left: 180px;
 }
-.header ul li{
+.header .ul99 li{
 	float: left;
 	margin-right: 32px;
 }
-.header ul li:last-child{
+.header .ul99 li:last-child{
 	margin-right: 0px;
 }
-.header ul li a{
+.header .ul99 li a{
 	font-size: 13px;
 	color: #4c4c4c;
 }
-.header ul li:first-child{
+.header .ul99 li:first-child{
 	font-weight: bold;
 }
-.header ul li:nth-child(9){
+.header .ul99 li:nth-child(9){
 	font-weight: bold;
 }
-.header ul li .color:hover{
+.header .ul99 li .color:hover{
 	font-weight: bold;
 	color: #509ae7;
 }
-.header ul li .ss:hover{
+.header .ul99 li .ss:hover{
 	font-weight: bold;
 	color: #000;
 }
 
+
+
+.header .box{
+	position: absolute;
+	top:65px;
+	left: 0;
+	width: 100%;
+	/*height: 280px;*/
+	height: 0px;
+	background: #fff;
+	box-shadow: 5px 2px 10px rgba(0,0,0,0.2);
+	z-index: 999;
+	overflow: hidden;
+	display: flex;
+    justify-content: center;
+}
+.header .box .dl-item{
+	float: left;
+	margin-right: 80px;
+	width: 130px;
+	height: 100%;
+	font-size: 10px;
+	margin-top: 25px;
+}
+.header .box .dl-item:first-child{
+	margin-left: 220px;
+}
+.header .box .dl-item .centent{
+	float: left;
+	width: 130px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #444;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	cursor: pointer;
+}
+.header .box .dl-item dd img{
+	width: 40px;
+	height: 40px;
+	margin-right: 8px;
+	vertical-align: middle
+}
+
+.header .box .centent2{
+	width: 1224px;
+	height: 280px;
+	margin: 0 auto;
+	display: flex;
+    justify-content: center;
+}
+.header .box .centent2 .li99{
+	float: left;
+	width: 130px;
+	height: 280px;
+	margin-right: 30px;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+}
+.header .box .centent2 .li99 .photo{
+	width: 130px;
+	height: 130px;
+	margin-top: 30px;
+}
+.header .box .centent2 .li99 .name{
+	height: 20px;
+	line-height: 20px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 13px;
+}
+.header .box .centent2 .li99 .price{
+	font-size: 8px;
+	font-weight: bold;
+	color: #ff6677;
+}
 
 .main{
 	width: 100%;
@@ -339,6 +420,7 @@ body{
 	height: 345px;
 	background: #fff;
 	margin-top: 30px;
+	position: relative;
 }
 .box6 .footer{
 	width: 1220px;
@@ -443,21 +525,61 @@ body{
 .box6 .end .ul2 li{
 	margin-right: 21px;
 }
-.box6 .end .box8{
+.box6 .div99{
 	position: absolute;
-	right: 0;
-	top:28px;
-	width: 80px;
-	height: 15px;
-	line-height: 15px;
+	left: 1300px;
+	top:230px;
+	width: 120px;
+	height: 50px;
+	line-height:50px;
 	cursor: pointer;
+	text-align: center;
 }
-.box6 .end .box8 i{
+.box6 .div99 img{
+	vertical-align: middle;
+}
+.box6 .div99 i{
 	font-size:12px;
-	color: #bdbdbd;
+	color: #bdbdbd;	
 }
-.box6 .end .box8 span{
+.box6 .div99 span{
+	font-size: 8px;
+	margin: 0 8px 0 8px;
+}
+.box6 .box11{
+	display: none;
+}
+.box6 .father{
+	position: absolute;
+	left: 1300px;
+	top:180px;
+	width: 120px;
+	height: 100px;
+	border:1px solid #fff;
+	background: #fff;
+	border-radius:5px;
+	box-shadow: 0px 8px 10px rgba(0,0,0,0.2);
+	display: none;
+}
+.box6 .father div{
+	width: 120px;
+	height: 50px;
+	line-height:50px;
+	cursor: pointer;
+	text-align: center;
+}
+.box6 .father div img{
+	vertical-align: middle;
+}
+.box6 .father i{
+	font-size:12px;
+	color: #bdbdbd;	
+}
+.box6 .father span{
 	font-size: 8px;
 	vertical-align:top;
 	margin: 0 8px 0 8px;
+}
+.box6 .father .box8{
+	border-top: 1px solid #ccc;
 }
