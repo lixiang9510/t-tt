@@ -16,9 +16,9 @@ function animate(obj,options,isLinear,fnEnd){
 				}
 				if(isLinear){
 					if(current<options[attr]){
-						iSneep=7;
+						iSneep=30;
 					}else{
-						iSneep=-7;
+						iSneep=-30;
 					}
 					if(Math.abs(options[attr]-current)<Math.abs(iSneep)){
 						if(attr=='opacity'){

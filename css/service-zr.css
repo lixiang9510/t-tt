@@ -53,6 +53,39 @@ body{
 .top .content li a:hover{
 	color: #fff;
 }
+#boxshopp{
+	position: absolute;
+	right:20px;
+	top:43px;
+	width: 360px;
+	height: 320px;
+	background: #fff;
+	border:1px solid #ccc;
+	border-radius: 8px;
+	box-shadow: 2px 5px 10px rgba(0,0,0,0.3);
+	text-align: center;
+	z-index: 9999;
+	display: none;
+}
+#boxshopp .iconfont{
+	display: block;
+	margin-top:80px;
+	font-size: 70px;
+	color: #999;
+}
+#boxshopp .p55{
+	margin-top:15px;
+	font-size: 20px;
+	color: #111;
+}
+#boxshopp .p66{
+	margin-top: 5px;
+	font-size: 10px;
+	color: #ccc;
+}
+
+
+
 
 
 .header{

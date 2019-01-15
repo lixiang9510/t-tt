@@ -220,8 +220,9 @@ var aNavItem1=[
 
 headleNav();
 language();
+shopp();
 
-
+//头部
 function headleNav(){
 	var oBox=document.querySelector('.box');
 	var oLi=document.querySelectorAll('.header ul li');
@@ -230,10 +231,12 @@ function headleNav(){
 		oLi[i].index=i;
 		oLi[i].onmouseenter=function(){
 			clearTimeout(handTmer);
-			oBox.style.border='1px solid #ccc';
-			animate(oBox,{height:280},true,function(){
-				oBox.style.overflow = 'visible';
-			});
+			handTmer=setTimeout(function(){
+				oBox.style.border='1px solid #ccc';
+				animate(oBox,{height:280,opacity:100},true,function(){
+					oBox.style.overflow = 'visible';
+				});
+			},200)
 			oBox.innerHTML='';
 			loadData1(this.index);
 		}
@@ -250,10 +253,10 @@ function headleNav(){
 	function hideNavContent(){
 		handTmer=setTimeout(function(){
 			oBox.style.overflow = 'hidden';
-			animate(oBox,{height:0},true,function(){
+			animate(oBox,{height:0,opacity:0},true,function(){
 				oBox.style.borderTop = 'none';
-			})
-		},500)
+			});
+		},200)
 	}
 	
 	function loadData1(index){
@@ -287,7 +290,33 @@ function headleNav(){
 	}
 }
 
+//购物车
+function shopp(){
+	var oBox1=document.getElementById('shopping');
+	var oShopp=document.getElementById('boxshopp');
+	var Tmer=0;
+	oBox1.onmouseenter=function(){
+		clearTimeout(Tmer);
+		oShopp.style.display='block';
+	}
+	oShopp.onmouseenter=function(){
+		clearTimeout(tmer)
+		this.style.display='block';
+	}
+	oShopp.onmouseleave=function(){
+		this.style.display='none';
+	}
+	oBox1.onmouseleave=function(){
+		tmer=setTimeout(function(){
+			oShopp.style.display='none';
+		},500);
+	}
+}
 
+
+
+
+//底部翻译
 function language(){
 	var oBox8=document.querySelector('.box8');
 	var oBox9=document.querySelector('.box9');
