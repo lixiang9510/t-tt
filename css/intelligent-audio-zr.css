@@ -71,12 +71,17 @@
 	line-height:40px;
 	margin: 0 auto;
 }
-.header .skill a{
+.header .skill .ttt{
 	margin-right: 30px;
 	font-size: 12px;
-	color: #ccc;
 	vertical-align:top;
 	color: #555;
+}
+.ttt{
+	color: #ccc;
+}
+.active{
+	font-weight: bold;
 }
 .header .skill a:first-of-type{
 	color: #ddd;

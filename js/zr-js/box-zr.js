@@ -2,11 +2,15 @@ var oBox=document.querySelector('.oneself2')
 var oBoxBottom=document.getElementById('box3')
 choose();
 language();
+shopp();
+
+
+
 
 window.addEventListener('scroll',yundong(oBox,100),false)
 window.addEventListener('scroll',yundong(oBoxBottom,800),false)
 
-
+//头部
 function choose(){
 	var oSurvey=document.querySelector('.survey');
 	var oSkill=document.querySelector('.skill');
@@ -52,6 +56,34 @@ function choose(){
 }
 
 
+//购物车
+function shopp(){
+	var oBox1=document.getElementById('shopping');
+	var oShopp=document.getElementById('boxshopp');
+	var Tmer=0;
+	oBox1.onmouseenter=function(){
+		clearTimeout(Tmer);
+		animate(oShopp,{opacity:100},true)
+		oShopp.style.display='block';
+	}
+	oShopp.onmouseenter=function(){
+		clearTimeout(tmer);
+		this.style.display='block';
+	}
+	oShopp.onmouseleave=function(){
+		this.style.opacity='0';
+		this.style.display='none';
+	}
+	oBox1.onmouseleave=function(){
+		tmer=setTimeout(function(){
+			oShopp.style.opacity='0';
+			oShopp.style.display='none';
+		},500);
+	}
+}
+
+
+//语言
 function language(){
 	var oBox8=document.querySelector('.box8');
 	var oBox9=document.querySelector('.box9');

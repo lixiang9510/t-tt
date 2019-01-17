@@ -31,25 +31,29 @@ function Top(){
 	}
 
 	oBtn1.onclick=function (){
-		oBtn2.className='active2';
-		this.className='active1';
+		oBtn2.className='.ttt';
+		this.className='active';
+		oBtn3.className='active';
 		Img1();
 	}
 
 	oBtn2.onclick=function (){
-		oBtn1.className='active2';
-		this.className='active1';
+		oBtn1.className='.ttt';
+		this.className='active';
+		oBtn4.className='active';
 		Img2();
 	}
 
 	oBtn3.onclick=function(){
-		oBtn4.className='active2';
-		this.className='active1';
+		oBtn4.className='.ttt';
+		this.className='active';
+		oBtn1.className='active';
 		Img1();
 	}
 	oBtn4.onclick=function(){
-		oBtn3.className='active2';
-		this.className='active1';
+		oBtn3.className='.ttt';
+		this.className='active';
+		oBtn2.className='active';
 		Img2();
 	}
 }
