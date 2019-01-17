@@ -1,5 +1,15 @@
 language();
 
+
+
+//轮播图
+
+
+
+
+
+
+//底部语言
 function language(){
 	var oBox8=document.querySelector('.box8');
 	var oBox9=document.querySelector('.box9');
